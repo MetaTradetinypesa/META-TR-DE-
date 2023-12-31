@@ -1,0 +1,381 @@
+<html>
+<head><CENTER><B> FOREX TRADING </B></CENTER></head>
+
+<head><center> <script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+</center></head>
+
+<style>
+html, body{
+  height: 100%;
+}
+body { 
+			background-image: url(<img src="bg1.jpg" width="600" height="485">) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #F0FFF0;
+  
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: Baskerville Old Face,Garamond;
+  
+}
+.wrapper {
+  height: 100%; 
+  width: 100%; 
+}
+
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:45%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: #F0FFF0;
+  color: #fff;
+  padding: 0.5em;
+}
+
+
+</style>
+<head>
+
+<title></title>
+
+</head>
+
+<body>
+<center>
+<table width="500" border="3">
+   <tr>
+      <th scope="col" bgcolor="aqua">&nbsp; FLAG | CURRENCY</th>
+      <th scope="col"bgcolor="aqua">&nbsp; BUYING</th>
+      <th scope="col"bgcolor="aqua">&nbsp; SELLING</th>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="us.png" width="16" height="11">   |   US dollar</td>
+      <td>&nbsp;3,608.71</td>
+      <td>&nbsp;3,618.71</td>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="gb.png" width="16" height="11">   |   UK Pound </td>
+      <td>&nbsp;4,744.22</td>
+      <td>&nbsp;4,757.37</td>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="eu.png" width="16" height="11">   |   Euro</td>
+      <td>&nbsp;4,287.63</td>
+      <td>&nbsp;4,299.51</td>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="ke.png" width="16" height="11">   |   Kenyan Shilling </td>
+      <td>&nbsp;34.75</td>
+      <td>&nbsp;34.84</td>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="tz.png" width="16" height="11">   |   Tanzanian Shilling</td>
+      <td>&nbsp;1.61</td>
+      <td>&nbsp;1.62</td>
+   </tr>
+   <tr>
+      <td>&nbsp;<img src="za.png" width="16" height="11">   |   South African Rand</td>
+      <td>&nbsp;260.04</td>
+      <td>&nbsp;270.04</td>
+   </tr>
+</table>
+</center>
+</body>
+</html>
+
+<style type="text/css">
+<!--
+html, body { height: 100%; }
+        .table
+        {
+            display: table;
+            height: 100%;
+        }
+        .row
+        {
+            display: table-row;
+        }
+        .aside
+        {
+            display: table-cell;        
+        }
+        .center
+        {
+            background-color: red;
+            display: table-cell;
+            width: 100%;
+        }
+        .wide
+        {
+            background-color: green;
+            width: 160000px;
+        }
+
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style2 {color: #999999}
+.style3 {color: #0000FF;font-family: Baskerville Old Face,Garamond;font-size: 12px }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style7 {font-size: 14px; color: #FF0000; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style24 {
+	color: #006400;
+	font-family: Arial;
+	font-weight: bold;
+}
+.style26 {font-size: 12px; color: #666666; }
+.style31 {
+	font-size: 9px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style40 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.style47 {color: #FFFF00}
+.style48 {color: #FFFFFF}
+.style49 {color: #006400; font-weight: bold; }
+.style50 {color: #FFFF00; font-weight: bold; }
+.style51 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.style52 {font-style: italic; font-size: 14px; color: #000000;}
+.style53 {color: #0099FF}
+.style54 {color: #0033FF}
+
+}
+.style60 {
+    background-color: blue;
+    border: green;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.style60 {border-radius: 12px;}
+
+}
+.style61 {
+    background-color: green;
+    border: blue;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer ;
+}
+.style61 {border-radius: 12px;}
+
+</style>
+
+</style>
+
+</head>
+
+</body>
+</html>
+</table>
+ </tr>
+<tr>
+<td width="153" height="653" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FF0000">
+        <!--DWLayoutTable-->
+</tr>
+</table></td>
+<td width="233" valign="top"><table layout:fixed width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+
+<td height="457" colspan="3" valign="top" layoutfixed>				  																														
+																																		  
+<script type="text/javascript">
+function sel()
+{
+	var val=document.form1.txtresult.value;
+	var selObj = document.getElementById('sel1');
+	var ama= selObj.selectedIndex;
+	var dow= " 3618.71";
+	var uk= " 4757.37";
+	var er= " 4299.51";
+	var sa= " 270.04";
+	var ke= " 34.84";
+	var tz= " 1.62";
+			           
+   
+      if (ama == 0) {
+alert("You need" + " " + val * dow + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "US Dollars" );
+var t ="You need" + " " + val * dow + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "US Dollars";
+ document.form1.area1.value=t
+} 
+else if (ama == 1)
+{
+alert("You need" + " " + val * uk + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "UK Pounds" );
+var t1 ="You need" + " " + val * uk + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "UK Pounds";
+ document.form1.area1.value=t1
+}
+else if (ama == 2)
+{
+alert("You need" + " " + val * er + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "EUROS" );
+var t2 ="You need" + " " + val * er + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "EUROS";
+ document.form1.area1.value=t2
+}
+else if (ama == 3)
+{
+alert("You need" + " " + val * sa + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "SA Rands" );
+var t3 ="You need" + " " + val * sa + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "SA Rands";
+ document.form1.area1.value=t3
+}
+else if (ama == 4)
+{
+alert("You need" + " " + val * ke + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "Kenya SHs" );
+var t4 ="You need" + " " + val * ke + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "Kenya SHs";
+ document.form1.area1.value=t4
+
+}
+else
+{
+alert("You need" + " " + val * tz + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "Tanzania SHs" );
+var t5 ="You need" + " " + val * tz + " " + "Uganda Shillings" + " " + "to buy" +" " + val * 1 +" " + "Tanzania SHs";
+ document.form1.area1.value=t5
+}
+}
+function buy()
+{
+	var val=document.form1.txtresult.value;
+	var selObj = document.getElementById('sel1');
+	var ama= selObj.selectedIndex;
+	var dow1= " 3608.71	";
+	var uk1= " 4744.22";
+	var er1= " 4287.63";
+	var sa1= " 260.04";
+	var ke1= " 34.75";
+	var tz1= " 1.61";
+	
+			           
+   
+      if (ama == 0) {
+alert("You get" + " " + val * dow1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "US Dollars" );
+var t ="You get" + " " + val * dow1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "US Dollars";
+ document.form1.area1.value=t
+} 
+else if (ama == 1)
+{
+alert("You get" + " " + val * uk1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "UK Pounds" );
+var t1 ="You get" + " " + val * uk1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "UK Pounds";
+ document.form1.area1.value=t1
+}
+else if (ama == 2)
+{
+alert("You get" + " " + val * er1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "EUROS" );
+var t2 ="You get" + " " + val * er1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "EUROS";
+ document.form1.area1.value=t2
+}
+else if (ama == 3)
+{
+alert("You get" + " " + val * sa1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "SA Rands" );
+var t3 ="You get" + " " + val * sa1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "SA Rands";
+ document.form1.area1.value=t3
+}
+else if (ama == 4)
+{
+alert("You get" + " " + val * ke1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "Kenya SHs" );
+var t4 ="You get" + " " + val * ke1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "Kenya SHs";
+ document.form1.area1.value=t4
+
+}
+else
+{
+alert("You get" + " " + val * tz1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "Tanzania SHs" );
+var t5 ="You get" + " " + val * tz1 + " " + "Uganda Shillings" + " " + "for selling" +" " + val * 1 +" " + "Tanzania SHs";
+ document.form1.area1.value=t5
+}
+}
+
+                    </script>		   
+            <form name="form1" method="post" action="">
+      <p align="center"><strong><span class="style49"></CENTER>Enter</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style49"><strong>Select</strong> <br>
+        <span class="style49">Amount </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style49">Currency<br>
+    
+        &nbsp;&nbsp;<input name="txtresult" type="text" class="style22" id="txtresult" style='height:30px;width:150px' maxlength="50" >    
+            &nbsp;<select name="select1" class="style3" id="sel1" style='height:30px;width:150px' maxlength="50">
+                <option value="USD">US DOLLARS</option>
+                <option value="POUNDS">UK POUNDS</option>
+                <option value="EURO">EUROS</option>
+                <option value="RANDS">SA.RANDS</option>
+                <option value="KENYA">KENYA Shs</option>
+                <option value="TANZANIA">TANZANIA Shs</option>      
+            </select>   
+            <br>
+        </span>
+</center>        
+<span class="style47">&nbsp;
+<textarea name="textarea" COLS=100 ROWS = 9 class="style49" id="area1" ></textarea>
+  </span></p>
+<center>
+&nbsp;&nbsp;
+<input name="btnbuy" type="button" class="style60" id="btnbuy" value="Buying" onClick="sel()">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input name="btnsell" type="button" class="style60" id="btnsell" value=" Selling " onClick="buy()">
+  </center>            </form>           
+              </td>
+        </tr>
+    </table></td>
+    <td width="153" valign="top" bgcolor="#FFFFFF"><div align="center">
+        <br>
+        <span class="style31"></span></div><table width="100%" border="0" align="left" cellpadding="2" cellspacing="1">                           
+<center><script type="text/javascript">
+   var date=new Date(),
+        year = date.getFullYear(),
+       text = "Copyright " + year + " - Nanzige",
+       html = '<div class="text-align-center">' + text + '</div>';
+ document.write(html);
+ </script></center>                    
+                                                        
